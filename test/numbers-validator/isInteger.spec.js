@@ -5,12 +5,10 @@ const NumbersValidator = require('../../app/numbers-validator');
 describe('isInteger', () => {
   let validator;
 
-  // Create a new instance before each test
   beforeEach(() => {
     validator = new NumbersValidator();
   });
 
-  /// Clean up after each test
   afterEach(() => {
     validator = null;
   });
